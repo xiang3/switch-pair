@@ -96,6 +96,6 @@ if __name__ == '__main__':
     # for i in range(5):
     #     switch_pair.switch(i, [])
     #     switch_pair.print_pair()
-    switch_pair.switch(int((time.time() / 86400) / 3) % 2)
+    switch_pair.switch(int((time.time() / 86400) / 3) % 2, [])
     switch_pair.print_pair()
     # notify_to_every_one(next_time_pair)
